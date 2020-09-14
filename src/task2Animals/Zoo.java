@@ -8,12 +8,13 @@ public class Zoo {
 
         ArrayList<String> zoo = new ArrayList<>();
 
-        zoo.add(0, "Lion");
+        // Если добавляем в конец списка, можно обойтись без индекса
+        zoo.add("Lion");
         zoo.add(1, "Ostrich");
         zoo.add(2, "Rabbit");
-        zoo.add(3, "Tiger");
+        zoo.add("Tiger");
         zoo.add(4, "Gorilla");
-        zoo.add(5, "Zebra");
+        zoo.add("Zebra");
         zoo.add(6, "Elephant");
         zoo.add(7, "Lama");
 
