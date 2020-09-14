@@ -3,6 +3,9 @@ package iterator;
 import java.util.ArrayList;
 import java.util.ListIterator;
 
+// Тут имеется ввиду, что надо увеличить значения в самом массиве,
+// обращаясь через итератор.
+// TODO: внести соответствующие изменения в цикл
 public class Main {
 
     public static void main(String[] args) {
@@ -17,7 +20,7 @@ public class Main {
 
         ListIterator<Integer> myIterator = myList.listIterator();
 
-        while(myIterator.hasNext()) {
+        while (myIterator.hasNext()) {
             Integer integer = myIterator.next() + 1;
             System.out.println(integer);
         }
